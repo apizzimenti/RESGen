@@ -1,6 +1,5 @@
 <a href="https://www.behance.net/JKDesignCo"><img src="https://raw.githubusercontent.com/apizzimenti/ResGen/master/Images/Small.png" title="Icons by /u/JoshKerky. 
-Click The image for a portfolio or more info." width="100"/></a>
-*Icons, like this one, by [/u/JoshKerky](https://reddit.com/u/JoshKerky). Here's his [portfolio](https://www.behance.net/JKDesignCo).*
+Click The image for a portfolio or more info." width="100"/></a>*Icons, like this one, by [/u/JoshKerky](https://reddit.com/u/JoshKerky). Here's his [portfolio](https://www.behance.net/JKDesignCo).*
 
 ###ResGen
 This program is for biologists and geneticists that want to split DNA sequences using restriction enzymes. **Res**triction Enzyme **Gen**erator
