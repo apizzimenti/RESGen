@@ -129,4 +129,8 @@ public final class Codon {
 	public String[] getAcids() {
 		return initacids;
 	}
+    
+    public String getContext() {
+        return bases;
+    }
 }
