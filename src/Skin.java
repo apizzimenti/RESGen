@@ -46,7 +46,7 @@ public class Skin extends Application {
 		framearea.setAlignment(Pos.TOP_CENTER);
 		framearea.setPromptText("frame (1, 2, or 3)");
 		
-		// create area for inputting location length
+		// create area for inputting location
 		TextField locationarea = new TextField();
 		locationarea.setId("locationarea");
 		locationarea.getStyleClass().add("textarea");
@@ -71,12 +71,9 @@ public class Skin extends Application {
             Codon x = new Codon(sqn.length(), sqn, frame);
             x.read();
             
-            /* Search y = new Search(x.getAcids(), locationarea.getText(), sqn);
-            y.searchforLocations(); */
-            
-            //solutions.setText(y.toString());
-            
-            solutions.setText(x.toString());
+            Search y = new Search(locationarea.getText(), x.getContext());
+            y.findLocations();
+            solutions.setText(y.toString());
         });
 		
 		// create layout
